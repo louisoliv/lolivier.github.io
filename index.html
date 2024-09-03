@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Big Shoulders Display"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="./styles/css/login.css" />
+    <title>Chipoulou 2.0 GraphQL</title>
+  </head>
+  <body>
+    <div class="containerData" id="containerData"></div>
+    <div class="allTextForm">
+      <div class="conainer" id="conainer">
+        <div class="welcomeSentence">Bienvenue à Zone01 !</div>
+        <div class="bothCols">
+          <div class="leftCol">
+            <h2>
+              Démarre la première étape de l’inscription – Les jeux cognitifs.
+            </h2>
+            <span>
+              C'est un jeu en deux parties qui défie ta mémoire et ta logique.
+              1) Prépare-toi pour le test en ligne d'1h30. 2) Crée un compte et
+              connecte-toi à la plateforme. 3) Complète le test - rappelle-toi,
+              tu ne peux pas faire pause ! 4) Tu obtiendras tes résultats
+              directement depuis la plateforme.
+            </span>
+
+            <h2>Bonne chance !</h2>
+
+            <span>
+              En cas de succès aux jeux cognitifs, la plateforme t'informera des
+              prochaines étapes. Sinon, tu as 1 essai supplémentaire pour faire
+              de ton mieux ! C'est tout ! Si tu as déjà créé un compte,
+              connecte-toi pour compléter ta candidature.
+            </span>
+
+            <span>
+              La sélection pour la prochaine piscine du 21 octobre a déjà
+              commencé, tu as jusqu'au 19 octobre pour t'inscrire !
+            </span>
+
+            <h2>Veux-tu en savoir plus sur Zone01 Rouen ?</h2>
+
+            <span>
+              Suis-nous sur nos réseaux sociaux et consulte notre site web.
+            </span>
+          </div>
+          <div class="rigthCol">
+            <div class="videoYT">
+              <iframe
+                class="video"
+                id="videoYT"
+                width="600"
+                height="340"
+                src="https://www.youtube.com/embed/nBFEsXr5A4A"
+              >
+              </iframe>
+            </div>
+            <div class="formLogDataArea" id="formLogDataArea">
+              <div class="formData" id="formData">
+                <input
+                  type="text"
+                  placeholder="Email or username"
+                  id="username"
+                  required
+                />
+                <input type="password" id="password" required />
+                <button type="submit" id="buttonLog" class="buttonLog">
+                  Login
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="./styles/js/login.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+  </body>
+</html>
